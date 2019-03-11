@@ -10,7 +10,7 @@ const sizes = {
   Small: 'small'
 };
 
-storiesOf('UI/Button', module)
+storiesOf('UI|Button', module)
   .addDecorator(withKnobs)
   .add('Default', () => {
     const size = select('Size', sizes, 'normal');

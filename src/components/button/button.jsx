@@ -4,6 +4,10 @@ import cn from 'classnames';
 import './button.css';
 
 class Button extends Component {
+  static defaultProps = {
+    size: 'normal'
+  };
+
   render() {
     const { title, size, expanded } = this.props;
 
