@@ -1,0 +1,38 @@
+.RemoveButton {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.RemoveButton:focus {
+  box-shadow: 0 0 8px 0 #575757;
+}
+
+.RemoveButton:hover {
+  background-color: #e3e3e3;
+}
+
+.RemoveButton:active {
+  background-color: #ccc;
+}
+
+.RemoveButton-Wrapper {
+  max-width: 22px;
+}
+
+.RemoveButton--size-normal {
+}
+
+.RemoveButton--size-small {
+  padding: 6px;
+}
+
+.RemoveButton--size-small .RemoveButton-Wrapper {
+  max-width: 18px;
+}
