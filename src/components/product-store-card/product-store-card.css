@@ -1,0 +1,60 @@
+.ProductStoreCard {
+  border: 8px solid #e3e3e3;
+  border-radius: 16px;
+  position: relative;
+}
+
+.ProductStoreCard-flexWrapper {
+  display: flex;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.ProductStoreCard-imageColumn {
+  flex: 0 0 auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.ProductStoreCard-contentColumn {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.ProductStoreCard-image {
+  width: 240px;
+  vertical-align: top;
+}
+
+.ProductStoreCard-title {
+  font-size: 36px;
+  font-weight: 800px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.ProductStoreCard-information {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.ProductStoreCard-information:last-child {
+  margin: 0;
+}
+
+.Product-closeButtton {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.Stub {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e3e3e3;
+}
