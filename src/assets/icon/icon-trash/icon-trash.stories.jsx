@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
+
 import IconTrash from './icon-trash';
 
 storiesOf('UI|Icon', module).add('IconTrash', () => {

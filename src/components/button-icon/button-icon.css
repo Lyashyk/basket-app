@@ -1,4 +1,4 @@
-.RemoveButton {
+.ButtonIcon {
   display: inline-block;
   padding: 8px;
   border: 1px solid transparent;
@@ -10,29 +10,29 @@
   transition: all 0.3s ease-out;
 }
 
-.RemoveButton:focus {
+.ButtonIcon:focus {
   box-shadow: 0 0 8px 0 #575757;
 }
 
-.RemoveButton:hover {
+.ButtonIcon:hover {
   background-color: #e3e3e3;
 }
 
-.RemoveButton:active {
+.ButtonIcon:active {
   background-color: #ccc;
 }
 
-.RemoveButton-Wrapper {
+.ButtonIcon-Wrapper {
   max-width: 22px;
 }
 
-.RemoveButton--size-normal {
+.ButtonIcon--size-normal {
 }
 
-.RemoveButton--size-small {
+.ButtonIcon--size-small {
   padding: 6px;
 }
 
-.RemoveButton--size-small .RemoveButton-Wrapper {
+.ButtonIcon--size-small .ButtonIcon-Wrapper {
   max-width: 18px;
 }
