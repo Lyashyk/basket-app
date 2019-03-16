@@ -1,22 +1,23 @@
-.ProductStoreCard {
-  border: 8px solid #e3e3e3;
+.CatalogProductCard {
+  border: 1px solid #e3e3e3;
   border-radius: 16px;
   position: relative;
 }
 
-.ProductStoreCard-flexWrapper {
+.CatalogProductCard-grid {
   display: flex;
   box-sizing: border-box;
-  height: 100%;
+  margin: -16px;
+  padding: 16px;
 }
 
-.ProductStoreCard-imageColumn {
-  flex: 0 0 auto;
+.CatalogProductCard-imageColumn {
+  flex: 0 0 240px;
   padding: 16px;
   box-sizing: border-box;
 }
 
-.ProductStoreCard-contentColumn {
+.CatalogProductCard-contentColumn {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
@@ -25,25 +26,27 @@
   box-sizing: border-box;
 }
 
-.ProductStoreCard-image {
-  width: 240px;
+.CatalogProductCard-image {
+  display: inline-block;
+  width: 100%;
   vertical-align: top;
 }
 
-.ProductStoreCard-title {
-  font-size: 36px;
-  font-weight: 800px;
-  line-height: 48px;
-  margin-bottom: 16px;
-}
-
-.ProductStoreCard-information {
-  font-size: 24px;
-  margin-bottom: 16px;
-}
-
-.ProductStoreCard-information:last-child {
+.CatalogProductCard-title {
   margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.CatalogProductCard-amount {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.CatalogProductCard-price {
+  font-size: 24px;
 }
 
 .Product-closeButtton {
