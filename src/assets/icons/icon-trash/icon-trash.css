@@ -1,5 +1,6 @@
 .IconTrash {
+  display: inline-block;
   width: 100%;
-  fill: #000;
+  fill: currentColor;
   vertical-align: top;
 }
