@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 
 import ProductStoreCard from './catalog-product-card';
 
-storiesOf('Component', module).add('CatalogProductCard', () => {
+storiesOf('Modules|Product|CatalogProductCard', module).add('Default', () => {
   return (
     <div style={{ width: '600px' }}>
       <ProductStoreCard />
