@@ -23,7 +23,7 @@
   background-color: #ccc;
 }
 
-.ButtonIcon-Wrapper {
+.ButtonIcon-holder {
   display: inline-block;
   max-width: 22px;
   max-height: 22px;
@@ -36,6 +36,6 @@
   padding: 6px;
 }
 
-.ButtonIcon--size-small .ButtonIcon-Wrapper {
+.ButtonIcon--size-small .ButtonIcon-holder {
   max-width: 18px;
 }
