@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Button from '../button/button';
+
 import './catalog-product-card.css';
 
 class CatalogProductCard extends Component {
@@ -8,8 +9,17 @@ class CatalogProductCard extends Component {
     return (
       <div className="CatalogProductCard">
         <div className="Product-closeButtton">
-          <div className="Stub" />
+          <div
+            className="Stub"
+            style={{
+              width: '40px',
+              height: '40px',
+              borderRadius: '20px',
+              backgroundColor: '#e3e3e3'
+            }}
+          />
         </div>
+
         <div className="CatalogProductCard-grid">
           <div className="CatalogProductCard-imageColumn">
             <img
@@ -18,13 +28,14 @@ class CatalogProductCard extends Component {
               alt=""
             />
           </div>
+
           <div className="CatalogProductCard-contentColumn">
-            <div className="CatalogProductCard-textContent">
+            <div className="CatalogProductCard-content">
               <h2 className="CatalogProductCard-title">Картофель</h2>
               <div className="CatalogProductCard-amount">Количество: 10</div>
               <div className="CatalogProductCard-price">Цена: 1</div>
             </div>
-            <div className="CatalogProductCard-buttonContent">
+            <div className="CatalogProductCard-action">
               <div className="CatalogProductCard-button">
                 <Button title="Добавить в корзину" />
               </div>
