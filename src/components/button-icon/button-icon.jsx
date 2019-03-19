@@ -9,7 +9,7 @@ class ButtonIcon extends Component {
 
     return (
       <button className={cn('ButtonIcon', `ButtonIcon--size-${size}`)}>
-        <span className="ButtonIcon-Wrapper">{icon}</span>
+        <span className="ButtonIcon-holder">{icon}</span>
       </button>
     );
   }
