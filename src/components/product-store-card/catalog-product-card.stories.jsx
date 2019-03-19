@@ -6,7 +6,7 @@ import ProductStoreCard from './catalog-product-card';
 
 storiesOf('Modules|Product/CatalogProductCard', module).add('Default', () => {
   return (
-    <div style={{ width: '600px' }}>
+    <div style={{ width: '480px' }}>
       <ProductStoreCard />
     </div>
   );
