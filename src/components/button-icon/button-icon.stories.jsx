@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, select } from '@storybook/addon-knobs';
 
 import ButtonIcon from './button-icon';
-import IconTrash from '../../assets/icons/icon-trash/icon-trash';
+import IconTrash from '../icons/icon-trash/icon-trash';
 
 const sizes = {
   Normal: 'normal',
