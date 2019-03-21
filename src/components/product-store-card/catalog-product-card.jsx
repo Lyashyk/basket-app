@@ -8,18 +8,6 @@ class CatalogProductCard extends Component {
   render() {
     return (
       <div className="CatalogProductCard">
-        <div className="Product-closeButtton">
-          <div
-            className="Stub"
-            style={{
-              width: '40px',
-              height: '40px',
-              borderRadius: '20px',
-              backgroundColor: '#e3e3e3'
-            }}
-          />
-        </div>
-
         <div className="CatalogProductCard-grid">
           <div className="CatalogProductCard-imageColumn">
             <img
