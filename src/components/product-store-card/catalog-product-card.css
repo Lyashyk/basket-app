@@ -3,6 +3,7 @@
   border-radius: 16px;
   position: relative;
   padding: 16px;
+  font-family: 'Proxima Nova Rg', sans-serif;
 }
 
 .CatalogProductCard-grid {
@@ -44,11 +45,11 @@
 
 .CatalogProductCard-amount {
   margin-bottom: 4px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .CatalogProductCard-price {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .Product-closeButtton {
