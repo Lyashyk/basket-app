@@ -6,23 +6,29 @@ import './catalog-product-card.css';
 
 class CatalogProductCard extends Component {
   render() {
+    const { product } = this.props;
     return (
       <div className="CatalogProductCard">
         <div className="CatalogProductCard-grid">
           <div className="CatalogProductCard-imageColumn">
             <img
               className="CatalogProductCard-image"
-              src="https://cs8.pikabu.ru/post_img/2016/01/28/8/14539843261780265.jpg"
+              src={product.image}
               alt=""
             />
           </div>
 
           <div className="CatalogProductCard-contentColumn">
             <div className="CatalogProductCard-content">
-              <h2 className="CatalogProductCard-title">Картофель</h2>
-              <div className="CatalogProductCard-amount">Количество: 10</div>
-              <div className="CatalogProductCard-price">Цена: 1</div>
+              <h2 className="CatalogProductCard-title">{product.title}</h2>
+              <div className="CatalogProductCard-amount">
+                Количество: {product.amount}
+              </div>
+              <div className="CatalogProductCard-price">
+                Цена: {product.price}
+              </div>
             </div>
+
             <div className="CatalogProductCard-action">
               <div className="CatalogProductCard-button">
                 <Button title="Добавить в корзину" />
