@@ -42,8 +42,6 @@
 
 .Button:disabled {
   background-color: #2196f3;
-  color: #fff;
   opacity: 0.6;
-  box-shadow: 0 0 8px 0 #1976d2;
   cursor: default;
 }

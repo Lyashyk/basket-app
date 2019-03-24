@@ -3,7 +3,6 @@
   border-radius: 16px;
   position: relative;
   padding: 16px;
-  font-family: 'Proxima Nova Rg', sans-serif;
 }
 
 .CatalogProductCard-grid {
@@ -32,6 +31,10 @@
   display: inline-block;
   width: 100%;
   vertical-align: top;
+}
+
+.CatalogProductCard-content {
+  margin-bottom: 24px;
 }
 
 .CatalogProductCard-title {

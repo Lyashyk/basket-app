@@ -38,38 +38,3 @@ body {
   font-weight: 700;
   font-style: italic;
 }
-
-@font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url('./assets/fonts/ProximaNova/ProximaNova-RegularIt.woff2')
-      format('woff2'),
-    url('./assets/fonts/ProximaNova/ProximaNova-RegularIt.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url('./assets/fonts/ProximaNova/ProximaNova-BoldIt.woff2')
-      format('woff2'),
-    url('./assets/fonts/ProximaNova/ProximaNova-BoldIt.woff') format('woff');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url('./assets/fonts/ProximaNova/ProximaNova-Bold.woff2') format('woff2'),
-    url('./assets/fonts/ProximaNova/ProximaNova-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url('./assets/fonts/ProximaNova/ProximaNova-Regular.woff2')
-      format('woff2'),
-    url('./assets/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}

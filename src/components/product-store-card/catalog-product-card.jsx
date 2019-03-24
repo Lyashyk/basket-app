@@ -6,7 +6,7 @@ import './catalog-product-card.css';
 
 class CatalogProductCard extends Component {
   render() {
-    const { product } = this.props;
+    const { product, onClick } = this.props;
     return (
       <div className="CatalogProductCard">
         <div className="CatalogProductCard-grid">
@@ -14,7 +14,7 @@ class CatalogProductCard extends Component {
             <img
               className="CatalogProductCard-image"
               src={product.image}
-              alt=""
+              alt={product.title}
             />
           </div>
 
@@ -24,6 +24,7 @@ class CatalogProductCard extends Component {
               <div className="CatalogProductCard-amount">
                 Количество: {product.amount}
               </div>
+
               <div className="CatalogProductCard-price">
                 Цена: {product.price}
               </div>
@@ -31,7 +32,7 @@ class CatalogProductCard extends Component {
 
             <div className="CatalogProductCard-action">
               <div className="CatalogProductCard-button">
-                <Button title="Добавить в корзину" />
+                <Button title="Добавить в корзину" onClick={onClick} />
               </div>
             </div>
           </div>
