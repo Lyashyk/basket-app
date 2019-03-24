@@ -1,14 +1,40 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'ProximaNova Rg', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('./assets/fonts/ProximaNova/ProximaNova-Bold.woff2') format('woff2'),
+    url('./assets/fonts/ProximaNova/ProximaNova-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('./assets/fonts/ProximaNova/ProximaNova-Regular.woff2')
+      format('woff2'),
+    url('./assets/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('./assets/fonts/ProximaNova/ProximaNova-RegularIt.woff2')
+      format('woff2'),
+    url('./assets/fonts/ProximaNova/ProximaNova-RegularIt.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('./assets/fonts/ProximaNova/ProximaNova-BoldIt.woff2')
+      format('woff2'),
+    url('./assets/fonts/ProximaNova/ProximaNova-BoldIt.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
 }

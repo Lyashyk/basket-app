@@ -9,13 +9,14 @@ class Button extends Component {
   };
 
   render() {
-    const { title, size, expanded } = this.props;
+    const { title, size, expanded, ...rest } = this.props;
 
     return (
       <button
         className={cn('Button', `Button--size-${size}`, {
           'Button--expanded': expanded
         })}
+        {...rest}
       >
         {title}
       </button>

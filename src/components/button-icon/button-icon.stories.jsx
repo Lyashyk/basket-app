@@ -11,9 +11,9 @@ const sizes = {
   Small: 'small'
 };
 
-storiesOf('UI|Button', module)
+storiesOf('UI|ButtonIcon', module)
   .addDecorator(withKnobs)
-  .add('ButtonIcon', () => {
+  .add('Default', () => {
     const size = select('Size', sizes, 'normal');
 
     return <ButtonIcon size={size} icon={<IconTrash />} />;
